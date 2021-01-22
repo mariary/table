@@ -1,0 +1,32 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.list__item {
+    font-family: sans-serif;
+    border: 1px solid #bfbfbf;
+    padding: 10px ;
+    margin: 10px 0;
+    width: 30%;
+}
+.list__item_all:not(:last-of-type) {
+    margin: 0 0 15px;
+}
+.list__item_img  {
+    float: left;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 0 10px 0 0;
+}
+
+.list__item_all_label {
+    font-size: 13px;
+    color: #585858;
+}
